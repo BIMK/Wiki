@@ -18,7 +18,7 @@ It is hard to manage all these requirements with effect due to the reason that s
 ## Create Your Account
 For security consideration, we do not provide the self-registered service. You need to contact the administrator.
 
-After application and authorization, you can login the GPU server wit `ssh`. The initial password is `123456` and you can change it with the following command:
+After application and authorization, you can login the GPU server with `ssh`. The initial password is `123456` and you can change it with the following command:
 ```
 passwd
 ```
