@@ -40,7 +40,7 @@ You can exec this script by using this command:
 singularity exec ~/PATH/YOUR_IMAGE python3 hijack.py
 ```
 
-Note that `~/PATH/YOUR_IMAGE` is the path where the image you need and `python3 hijack.py` is the command you want to execute.
+Note that `~/PATH/YOUR_IMAGE` is the path where the image you need and `python3 hijack.py` is the command you want to execute. If you encounter an error like `no gpu device available` but the server resources are sufficient, you can add the command `--nv` after `exec` to solve it.
 ### Customize Your Image
 In general cases, you may need to build your personal images. Singularity provides a simple approach to do it.
 
