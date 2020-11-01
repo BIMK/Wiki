@@ -6,7 +6,7 @@ __Copyright:__ BIMK Institute of Anhui University
 This file contains all the basic notifications you need to know before you use the GPU server of BIMK.
 
 ## Platform 
-BIMK has one GPU Server with 4 NVIDIA Tesla P100 GPU cards which run on the Ubuntu 18.04(bionic) Desktop release. However, the server does not support running any GPU-required programs directly on the low-level system layer. Instead, Singularity as a flexible virtual technique is used to eliminate the problems of software compatibility. Here is a description of why we use Singularity:  
+BIMK has one GPU Server(IP: 210.45.215.199) with 4 NVIDIA Tesla P100 GPU cards which run on the Ubuntu 18.04(bionic) Desktop release. However, the server does not support running any GPU-required programs directly on the low-level system layer. Instead, Singularity as a flexible virtual technique is used to eliminate the problems of software compatibility. Here is a description of why we use Singularity:  
 ``` 
 User A: need to run an old program that requires Pytorch 0.4.0 and python 3.5. 
 
