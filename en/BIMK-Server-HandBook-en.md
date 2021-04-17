@@ -1,7 +1,8 @@
 # BIMK GPU Server Handbook V 1.0
-__Author:__ Shichen Peng  
-__Date:__ 2020-04-14  
-__Copyright:__ BIMK Institute of Anhui University  
+[ZH](../zh/BIMK-Server-HandBook-zh.md)
+| Maintainer      | Last Update Time | Status |
+| ----------- | ----------- |-----------|
+| @Anonymone| 2021.04.17| Out-dated|  
 
 This file contains all the basic notifications you need to know before you use the GPU server of BIMK.
 
