@@ -1,20 +1,20 @@
 # BIMK CPU服务器使用说明
 
 ## 1. 连接远程服务器
-1）命令提示符输入`mstsc`，弹出远程桌面连接
+1）命令提示符输入`mstsc`，弹出远程桌面连接<br>
 2）输入CPU服务器IP地址和用户名、密码（用户可自行修改密码）
 
 ## 2. 常用软件
-1）Matlab 2020b已经安装，双击D:\Program Files\Polyspace\R2020b\bin\matlab.exe即可运行
-2）Java已经安装JDK1.8版本。（命令行测试可运行）
+1）Matlab 2020b已经安装，双击D:\Program Files\Polyspace\R2020b\bin\matlab.exe即可运行<br>
+2）Java已经安装JDK1.8版本。（命令行测试可运行）<br>
 3）Eclipse已安装在（C:\Program Files\java-photon\eclipse）目录下
 
 ## 3. 常见问题
 ### 1）登录时出现身份验证错误，要求的函数不受支持（可能由于CredSSP加密数据库修正）
 命令提示符输入`gpedit.msc`（仅支持windows专业版）进入本地组策略编辑器，依次进入计算机配置>管理模板>系统>凭据分配>加密数据库修正，选择保护级别易受攻击，点击应用，再次登录即可
 ### 2）文件传输
-两种方案可以选择：
-1）从本地（远程桌面）使用鼠标右键复制，在远程桌面（本地）使用鼠标右键粘贴。
+两种方案可以选择：<br>
+1）从本地（远程桌面）使用鼠标右键复制，在远程桌面（本地）使用鼠标右键粘贴。<br>
 2）在远程桌面连接框中进入显示选项>详细信息，勾选对应驱动器即可将本地驱动器连接到远程桌面
 
 ## 4. 注意事项
@@ -55,9 +55,9 @@ scp [-r] USER_NAME@IP:/home/USER_NAME/files D:\
 ## 4. 运行实验
 请务必在虚拟环境下进行实验，服务器预装`anaconda3.7`。之后会考虑使用docker或者singularity等
 ### 1）conda
-`anaconda`自带，常用命令有：
-`conda list`  # 查看安装的包
-`conda env list`  # 查看当前有哪些`conda`虚拟环境
+`anaconda`自带，常用命令有：<br>
+`conda list`  # 查看安装的包<br>
+`conda env list`  # 查看当前有哪些`conda`虚拟环境<br>
 1）创建虚拟环境
 
 ```
@@ -89,7 +89,7 @@ conda remove -n ENV_NAME --all
 ```
 pip install virtualenv
 ```
-创建 的虚拟环境在当前目录下
+创建 的虚拟环境在当前目录下<br>
 2）创建虚拟环境
 ```
 virtualenv ENV_NAME
