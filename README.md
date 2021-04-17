@@ -7,7 +7,7 @@ so stay tuned~
 ## 设备使用说明 / Equipment Instructions
 |目录 / Contents|语言 / Language|
 | ----------- |-----------|
-| BIMK服务器使用说明 / BIMK Server HandBook |[ZH](../zh/BIMK-Server-HandBook-zh.md) / [EN](../en/BIMK-Server-HandBook-en.md)|
+| BIMK服务器使用说明 / BIMK Server HandBook |[ZH](./zh/BIMK-Server-HandBook-zh.md) / [EN](./en/BIMK-Server-HandBook-en.md)|
 
 ## TODO
 
